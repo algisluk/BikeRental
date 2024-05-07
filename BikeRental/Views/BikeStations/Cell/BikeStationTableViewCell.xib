@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+        <array key="Manrope-Medium.ttf">
+            <string>Manrope-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="409" id="KGk-i7-Jjw" customClass="BikeStationTableViewCell" customModule="BikeRental" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="557" height="405"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="557" height="405"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s7G-4r-d9n">
+                        <rect key="frame" x="16" y="4" width="525" height="397"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ic7-9C-Xua">
+                                <rect key="frame" x="16" y="16" width="493" height="33"/>
+                                <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="24"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUQ-2Q-MV1">
+                                <rect key="frame" x="15.999999999999998" y="53" width="31.333333333333329" height="195"/>
+                                <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="12"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LjO-i0-3n4">
+                                <rect key="frame" x="47.333333333333336" y="142.33333333333334" width="30.333333333333336" height="16.666666666666657"/>
+                                <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="12"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fbv-6J-fLB">
+                                <rect key="frame" x="15.999999999999986" y="268" width="246.66666666666663" height="109"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bike" translatesAutoresizingMaskIntoConstraints="NO" id="VZv-6V-Hvg">
+                                        <rect key="frame" x="111.33333333333334" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="KoW-FR-EtJ"/>
+                                            <constraint firstAttribute="height" constant="24" id="wxc-rl-vfW"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01y-g6-A0g">
+                                        <rect key="frame" x="0.0" y="32" width="246.66666666666666" height="60.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="44"/>
+                                        <color key="textColor" red="0.039215686274509803" green="0.62352941176470589" blue="0.41568627450980389" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bikes available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmD-Oq-Wn4">
+                                        <rect key="frame" x="0.0" y="92.333333333333314" width="246.66666666666666" height="16.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="12"/>
+                                        <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="01y-g6-A0g" firstAttribute="top" secondItem="VZv-6V-Hvg" secondAttribute="bottom" constant="8" id="B18-uZ-jhH"/>
+                                    <constraint firstItem="VZv-6V-Hvg" firstAttribute="centerX" secondItem="Fbv-6J-fLB" secondAttribute="centerX" id="Fjy-37-zcY"/>
+                                    <constraint firstAttribute="bottom" secondItem="jmD-Oq-Wn4" secondAttribute="bottom" id="cYe-Do-LTh"/>
+                                    <constraint firstAttribute="trailing" secondItem="01y-g6-A0g" secondAttribute="trailing" id="ckj-kJ-mp4"/>
+                                    <constraint firstItem="VZv-6V-Hvg" firstAttribute="top" secondItem="Fbv-6J-fLB" secondAttribute="top" id="dNw-xt-uf3"/>
+                                    <constraint firstItem="jmD-Oq-Wn4" firstAttribute="leading" secondItem="Fbv-6J-fLB" secondAttribute="leading" id="eVA-Sx-ptJ"/>
+                                    <constraint firstItem="jmD-Oq-Wn4" firstAttribute="top" secondItem="01y-g6-A0g" secondAttribute="bottom" id="giz-WI-o4r"/>
+                                    <constraint firstItem="01y-g6-A0g" firstAttribute="leading" secondItem="Fbv-6J-fLB" secondAttribute="leading" id="lV7-ok-9xc"/>
+                                    <constraint firstAttribute="trailing" secondItem="jmD-Oq-Wn4" secondAttribute="trailing" id="sHY-20-kW3"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="88m-4N-Ck1">
+                                <rect key="frame" x="262.66666666666669" y="268" width="246.33333333333331" height="109"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylO-Nj-G0K">
+                                        <rect key="frame" x="0.0" y="32" width="246.66666666666666" height="60.333333333333343"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="44"/>
+                                        <color key="textColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Places available" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M6b-yi-X4o">
+                                        <rect key="frame" x="0.0" y="92.333333333333314" width="246.66666666666666" height="16.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Medium" family="Manrope" pointSize="12"/>
+                                        <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Lock" translatesAutoresizingMaskIntoConstraints="NO" id="K0M-pO-BQ5">
+                                        <rect key="frame" x="111" y="0.0" width="24" height="24"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="24" id="B02-5a-lLh"/>
+                                            <constraint firstAttribute="width" constant="24" id="f6K-s4-9kR"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ylO-Nj-G0K" secondAttribute="trailing" constant="-0.33000000000000002" id="19s-f7-v3i"/>
+                                    <constraint firstItem="M6b-yi-X4o" firstAttribute="leading" secondItem="88m-4N-Ck1" secondAttribute="leading" id="4Rq-qB-dAS"/>
+                                    <constraint firstAttribute="trailing" secondItem="M6b-yi-X4o" secondAttribute="trailing" constant="-0.33000000000000002" id="Jbo-u4-Udf"/>
+                                    <constraint firstItem="ylO-Nj-G0K" firstAttribute="leading" secondItem="88m-4N-Ck1" secondAttribute="leading" id="UlC-l8-o1o"/>
+                                    <constraint firstAttribute="bottom" secondItem="M6b-yi-X4o" secondAttribute="bottom" id="c0Z-el-Bgf"/>
+                                    <constraint firstItem="M6b-yi-X4o" firstAttribute="top" secondItem="ylO-Nj-G0K" secondAttribute="bottom" id="fLA-9E-ViK"/>
+                                    <constraint firstItem="K0M-pO-BQ5" firstAttribute="centerX" secondItem="88m-4N-Ck1" secondAttribute="centerX" id="hOD-EG-lBW"/>
+                                    <constraint firstItem="ylO-Nj-G0K" firstAttribute="top" secondItem="K0M-pO-BQ5" secondAttribute="bottom" constant="8" id="pa9-tE-yOk"/>
+                                    <constraint firstItem="K0M-pO-BQ5" firstAttribute="top" secondItem="88m-4N-Ck1" secondAttribute="top" id="wSL-Bx-iOQ"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LjO-i0-3n4" firstAttribute="leading" secondItem="DUQ-2Q-MV1" secondAttribute="trailing" id="9xi-dB-By5"/>
+                            <constraint firstItem="88m-4N-Ck1" firstAttribute="trailing" secondItem="Ic7-9C-Xua" secondAttribute="trailing" id="CpQ-9k-FoZ"/>
+                            <constraint firstItem="88m-4N-Ck1" firstAttribute="top" secondItem="DUQ-2Q-MV1" secondAttribute="bottom" constant="20" id="Ha3-2j-jwb"/>
+                            <constraint firstItem="DUQ-2Q-MV1" firstAttribute="top" secondItem="Ic7-9C-Xua" secondAttribute="bottom" constant="4" id="Hah-8O-VBo"/>
+                            <constraint firstItem="88m-4N-Ck1" firstAttribute="width" secondItem="Fbv-6J-fLB" secondAttribute="width" id="N89-wv-yQr"/>
+                            <constraint firstItem="Fbv-6J-fLB" firstAttribute="leading" secondItem="Ic7-9C-Xua" secondAttribute="leading" id="VZE-Gr-oyi"/>
+                            <constraint firstItem="Fbv-6J-fLB" firstAttribute="top" secondItem="DUQ-2Q-MV1" secondAttribute="bottom" constant="20" id="VoF-kd-Bi5"/>
+                            <constraint firstItem="88m-4N-Ck1" firstAttribute="leading" secondItem="Fbv-6J-fLB" secondAttribute="trailing" id="Vzg-yc-dmb"/>
+                            <constraint firstItem="Ic7-9C-Xua" firstAttribute="leading" secondItem="s7G-4r-d9n" secondAttribute="leading" constant="16" id="iLq-Ol-d9B"/>
+                            <constraint firstAttribute="bottom" secondItem="88m-4N-Ck1" secondAttribute="bottom" constant="20" id="jMJ-Kb-XdQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Fbv-6J-fLB" secondAttribute="bottom" constant="20" id="koS-fX-4pv"/>
+                            <constraint firstItem="DUQ-2Q-MV1" firstAttribute="leading" secondItem="Ic7-9C-Xua" secondAttribute="leading" id="kuk-EE-cvT"/>
+                            <constraint firstItem="LjO-i0-3n4" firstAttribute="centerY" secondItem="DUQ-2Q-MV1" secondAttribute="centerY" id="q6p-oT-SZy"/>
+                            <constraint firstAttribute="trailing" secondItem="Ic7-9C-Xua" secondAttribute="trailing" constant="16" id="rl2-U9-pGl"/>
+                            <constraint firstItem="Ic7-9C-Xua" firstAttribute="top" secondItem="s7G-4r-d9n" secondAttribute="top" constant="16" id="vSm-QM-I02"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="s7G-4r-d9n" secondAttribute="bottom" constant="4" id="ZNx-YR-yDU"/>
+                    <constraint firstItem="s7G-4r-d9n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="cZn-Jx-VZn"/>
+                    <constraint firstItem="s7G-4r-d9n" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="hLh-m9-uv3"/>
+                    <constraint firstAttribute="trailing" secondItem="s7G-4r-d9n" secondAttribute="trailing" constant="16" id="pKY-nQ-cke"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="addressLabel" destination="LjO-i0-3n4" id="xBH-4L-9mq"/>
+                <outlet property="bikeCountLabel" destination="01y-g6-A0g" id="wZv-jr-jvY"/>
+                <outlet property="containerView" destination="s7G-4r-d9n" id="noM-1K-52T"/>
+                <outlet property="distanceLabel" destination="DUQ-2Q-MV1" id="cNd-05-nTJ"/>
+                <outlet property="placeCountLabel" destination="ylO-Nj-G0K" id="FIK-Lf-uFu"/>
+                <outlet property="titleLabel" destination="Ic7-9C-Xua" id="ZtB-ob-ni5"/>
+            </connections>
+            <point key="canvasLocation" x="327.48091603053433" y="184.1549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Bike" width="24" height="24"/>
+        <image name="Lock" width="24" height="24"/>
+    </resources>
+</document>
