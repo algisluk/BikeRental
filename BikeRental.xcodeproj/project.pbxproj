@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CA700BC2BEE05BC00ADF980 /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA700BA2BEE05BC00ADF980 /* Manrope-Bold.ttf */; };
+		5CA700BD2BEE05BC00ADF980 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CA700BB2BEE05BC00ADF980 /* Manrope-Medium.ttf */; };
 		5CB618652BE99A7600332D46 /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB618642BE99A7600332D46 /* StationInfo.swift */; };
 		5CB618672BE99AD000332D46 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB618662BE99AD000332D46 /* APIService.swift */; };
 		5CB618692BE99B7D00332D46 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB618682BE99B7D00332D46 /* StationsViewModel.swift */; };
@@ -18,8 +20,6 @@
 		5CB618792BEA6C1700332D46 /* StationDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB618782BEA6C1700332D46 /* StationDetailsViewModel.swift */; };
 		5CB6187F2BEABCB400332D46 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6187E2BEABCB400332D46 /* LocationService.swift */; };
 		5CB618812BEAC29F00332D46 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB618802BEAC29F00332D46 /* Location.swift */; };
-		5CC635292BE98C33009145FA /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC635272BE98C33009145FA /* Manrope-Medium.ttf */; };
-		5CC6352A2BE98C33009145FA /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5CC635282BE98C33009145FA /* Manrope-Bold.ttf */; };
 		5CCFD0162BE9827200D115AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCFD0152BE9827200D115AA /* AppDelegate.swift */; };
 		5CCFD01F2BE9827400D115AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCFD01E2BE9827400D115AA /* Assets.xcassets */; };
 		5CCFD0222BE9827400D115AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCFD0202BE9827400D115AA /* LaunchScreen.storyboard */; };
@@ -30,6 +30,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5CA700BA2BEE05BC00ADF980 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Bold.ttf"; sourceTree = "<group>"; };
+		5CA700BB2BEE05BC00ADF980 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Manrope-Medium.ttf"; sourceTree = "<group>"; };
 		5CB618642BE99A7600332D46 /* StationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		5CB618662BE99AD000332D46 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		5CB618682BE99B7D00332D46 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		5CB618782BEA6C1700332D46 /* StationDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationDetailsViewModel.swift; sourceTree = "<group>"; };
 		5CB6187E2BEABCB400332D46 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		5CB618802BEAC29F00332D46 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		5CC635272BE98C33009145FA /* Manrope-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Medium.ttf"; path = "../../../Downloads/Manrope/static/Manrope-Medium.ttf"; sourceTree = "<group>"; };
-		5CC635282BE98C33009145FA /* Manrope-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Manrope-Bold.ttf"; path = "../../../Downloads/Manrope/static/Manrope-Bold.ttf"; sourceTree = "<group>"; };
 		5CCFD0122BE9827200D115AA /* BikeRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCFD0152BE9827200D115AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CCFD01E2BE9827400D115AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 		5CCFD0092BE9827200D115AA = {
 			isa = PBXGroup;
 			children = (
-				5CC635282BE98C33009145FA /* Manrope-Bold.ttf */,
-				5CC635272BE98C33009145FA /* Manrope-Medium.ttf */,
+				5CA700BA2BEE05BC00ADF980 /* Manrope-Bold.ttf */,
+				5CA700BB2BEE05BC00ADF980 /* Manrope-Medium.ttf */,
 				5CCFD0142BE9827200D115AA /* BikeRental */,
 				5CCFD0132BE9827200D115AA /* Products */,
 			);
@@ -231,12 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC635292BE98C33009145FA /* Manrope-Medium.ttf in Resources */,
 				5CB618772BEA657D00332D46 /* StationDetailsViewController.storyboard in Resources */,
 				5CCFD0302BE984AD00D115AA /* BikeStationTableViewCell.xib in Resources */,
 				5CCFD0222BE9827400D115AA /* LaunchScreen.storyboard in Resources */,
-				5CC6352A2BE98C33009145FA /* Manrope-Bold.ttf in Resources */,
+				5CA700BD2BEE05BC00ADF980 /* Manrope-Medium.ttf in Resources */,
 				5CCFD01F2BE9827400D115AA /* Assets.xcassets in Resources */,
+				5CA700BC2BEE05BC00ADF980 /* Manrope-Bold.ttf in Resources */,
 				5CCFD02C2BE983EF00D115AA /* BikeStationsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -430,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";

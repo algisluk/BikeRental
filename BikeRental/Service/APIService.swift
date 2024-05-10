@@ -11,9 +11,13 @@ class APIService {
     func apiToGetStationsData(completion: @escaping (_ result: Result<StationInfo, APIError>) -> ()){
         URLSession.shared.dataTask(with: stationsURL) { (data, urlResponse, error) in
             if let data = data {
-                let jsonDecoder = JSONDecoder()
-                let data = try! jsonDecoder.decode(StationInfo.self, from: data)
-                completion(.success(data))
+                do {
+                    let jsonDecoder = JSONDecoder()
+                    let data = try jsonDecoder.decode(StationInfo.self, from: data)
+                    completion(.success(data))
+                } catch {
+                    completion(.failure(.decodeError))
+                }
             } else {
                 print(error.debugDescription)
                 completion(.failure(.decodeError))
@@ -25,9 +29,13 @@ class APIService {
     func apiToGetStationsDetailsData(completion : @escaping (_ result: Result<StationStatus, APIError>) -> ()){
         URLSession.shared.dataTask(with: stationsDetailsURL) { (data, urlResponse, error) in
             if let data = data {
-                let jsonDecoder = JSONDecoder()
-                let data = try! jsonDecoder.decode(StationStatus.self, from: data)
-                completion(.success(data))
+                do {
+                    let jsonDecoder = JSONDecoder()
+                    let data = try jsonDecoder.decode(StationStatus.self, from: data)
+                    completion(.success(data))
+                } catch {
+                    completion(.failure(.decodeError))
+                }
             } else {
                 print(error.debugDescription)
                 completion(.failure(.decodeError))
